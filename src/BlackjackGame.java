@@ -256,6 +256,7 @@ public class BlackjackGame {
 					{
 						((Player) p).placeBet(currentBet);
 						System.out.printf("%s bet %d extra chips.\n", p.getName(), currentBet);
+						currentBet *= 2;
 						firstMove = false;
 						stand = true;
 
